@@ -1,1 +1,1 @@
-SELeCT pfirstname || ' ' || plastname || ' ' || ppoints :: TEXT FROM people;
+SELECT pfirstname || ' ' || plastname || ' ' || ppoints AS "Customer Points" FROM people;
