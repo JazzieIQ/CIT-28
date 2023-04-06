@@ -1,0 +1,1 @@
+SELECT pid, pfirstname, plastname, pfavorites -> 'Desserts' -> 0 AS "a" FROM people WHERE pfavorites -> 'Desserts' ->> 0 ILIKE '%a%';
