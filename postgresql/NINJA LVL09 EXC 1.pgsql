@@ -1,0 +1,1 @@
+SELECT pfirstname, plastname, pstate, ppoints AS "TEAM 5k" FROM people WHERE ppoints >= 5000;

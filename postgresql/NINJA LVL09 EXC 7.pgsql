@@ -1,0 +1,1 @@
+SELECT pid, pfirstname, plastname, pcity AS "b" FROM people WHERE pcity LIKE '%b%';

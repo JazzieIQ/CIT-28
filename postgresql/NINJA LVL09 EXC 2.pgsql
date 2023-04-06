@@ -1,0 +1,1 @@
+SELECT pfirstname, plastname, pstate, ppoints AS "TEAM 9k" FROM people WHERE ppoints >= 9500 OR pstate = 'NY' ORDER By ppoints ASC;
