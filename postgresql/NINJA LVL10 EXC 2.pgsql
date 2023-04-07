@@ -1,0 +1,1 @@
+SELECT pid, pfirstname, plastname FROM people WHERE pfirstname LIKE '%e%' ORDER BY pid ASC;

@@ -1,0 +1,1 @@
+SELECT pid, pfirstname, plastname, pdob FROM people WHERE pdob <'04/06/2013' ORDER BY pid ASC;
